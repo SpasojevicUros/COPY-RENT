@@ -1,0 +1,48 @@
+﻿@model ProjekatPPP.Models.BO.MasinaBO
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Izmeni podatke o masini</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="idMasine">ID masine</label>
+                <input asp-for="idMasine"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="proizvodjac">Proizvodjac</label>
+                <input asp-for="proizvodjac"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="model">Model</label>
+                <input asp-for="model" />
+            </div>
+            <div class="form-group">
+                <label asp-for="brojKopija">Broj kopija</label>
+                <input asp-for="brojKopija" />
+            </div>
+            <div class="form-group">
+                <label asp-for="cena">Cena</label>
+                <input asp-for="cena" />
+            </div>
+            <div class="form-group">
+                <label asp-for="opis">Opis</label>
+                <input asp-for="opis" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Izmeni" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GetAllMasine">Nazad na listu</a>
+</div>
+

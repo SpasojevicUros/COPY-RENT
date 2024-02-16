@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ProjekatPPP.Models.BO.KupacBO>
+
+@{
+    ViewData["Title"] = "GetAllKupce";
+}
+
+<h1>Lista svih kupaca</h1>
+
+<p>
+    <a asp-action="Create">Dodaj novog kupca</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ime firme</th>
+            <th>Bankovni racun</th>
+            <th>PIB</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.idKupca</td>
+            <td>@item.imeFirme</td>
+            <td>@item.bankovniRacun</td>
+            <td>@item.pib</td>
+            <td>
+                @Html.ActionLink("Izmeni podatke kupca", "Edit", new { id=item.idKupca }) |
+                @Html.ActionLink("Ukloni kupca", "Delete", new { id = item.idKupca })                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

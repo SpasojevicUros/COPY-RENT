@@ -1,0 +1,40 @@
+﻿@model ProjekatPPP.Models.BO.KupacBO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Dodaj novog kupca</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="idKupca">ID kupca</label>
+                <input asp-for="idKupca" />
+            </div>
+            <div class="form-group">
+                <label asp-for="imeFirme">Ime firme</label>
+                <input asp-for="imeFirme" />
+            </div>
+            <div class="form-group">
+                <label asp-for="bankovniRacun">Bankovni racun</label>
+                <input asp-for="bankovniRacun" />
+            </div>
+            <div class="form-group">
+                <label asp-for="pib">PIB</label>
+                <input asp-for="pib" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dodaj" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GetAllKupce">Nazad na listu</a>
+</div>
+

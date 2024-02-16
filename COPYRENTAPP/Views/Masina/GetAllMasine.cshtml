@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ProjekatPPP.Views.ViewModels.GetAllMasineViewModel>
+
+@{
+    ViewData["Title"] = "GetAllMasine";
+}
+
+<h1>Lista svih masina</h1>
+
+<p>
+    <a asp-action="Create">Kupi novu masinu</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID masine</th>
+            <th>Proizvodjac</th>
+            <th>Model</th>
+            <th>Broj kopija</th>
+            <th>Cena</th>
+            <th>Opis</th>
+            <th>Izdata kupcu</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+
+        var izdataKupcu = item.izdataKupcu ?? "Slobodna";
+
+
+        <tr>
+            <td>@item.idMasine</td>
+            <td>@item.proizvodjac</td>
+            <td>@item.model</td>
+            <td>@item.brojKopija</td>
+            <td>@item.cena</td>
+            <td>@item.opis</td>
+            <td>@izdataKupcu</td>
+            <td>
+                @Html.ActionLink("Izmeni podatke masine", "Edit", new { id = item.idMasine }) |
+                @Html.ActionLink("Ukloni masinu", "Delete", new { id = item.idMasine }) |
+                @Html.ActionLink("Izdaj masinu", "IzdajMasinu", new { idMasine = item.idMasine }) |
+                @Html.ActionLink("Vrati masinu", "VratiMasinu", new { idMasine = item.idMasine })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

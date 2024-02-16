@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjekatPPP
+build_property.RootNamespace = ProjekatPPP
+build_property.ProjectDir = C:\FAKS\3. TRECA GODINA\I Semestar\Praktikum primenjenog programiranja\Projekat App\ProjekatPPP\ProjekatPPP\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\FAKS\3. TRECA GODINA\I Semestar\Praktikum primenjenog programiranja\Projekat App\ProjekatPPP\ProjekatPPP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Faktura/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFrdHVyYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Faktura/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFrdHVyYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Faktura/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFrdHVyYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Faktura/GetAllFakture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFrdHVyYVxHZXRBbGxGYWt0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Kupac/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VwYWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Kupac/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VwYWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Kupac/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VwYWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Kupac/GetAllKupce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VwYWNcR2V0QWxsS3VwY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/GetAllMasine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXEdldEFsbE1hc2luZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/IzdajMasinu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXEl6ZGFqTWFzaW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Masina/VratiMasinu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzaW5hXFZyYXRpTWFzaW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FAKS/3. TRECA GODINA/I Semestar/Praktikum primenjenog programiranja/Projekat App/ProjekatPPP/ProjekatPPP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ffh8tapc82

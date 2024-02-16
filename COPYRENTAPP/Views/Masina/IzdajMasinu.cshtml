@@ -1,0 +1,22 @@
+﻿@model ProjekatPPP.Views.ViewModels.IznajmljivanjeMasineViewModel;
+
+@{
+    ViewData["Title"] = "IzdajMasinu";
+}
+
+<h1>Izdavanje masine</h1>
+
+<h3>Izaberite kupca kome zelite da izdate masinu</h3>
+<div>
+    <hr />
+    <dl class="row">
+    </dl>
+    
+    <form asp-action="IzdajMasinu">
+        <input type="hidden" asp-for="idMasine"/>
+        @Html.DropDownListFor(m => m.listaKupaca, new SelectList(Model.listaKupaca.Select(x=>x.imeFirme)), "Izaberite kupca..") 
+    
+    <input type="submit" value="Izdaj" class="btn btn-success"/> |
+        <a asp-action="GetAllMasine">Nazad na listu</a>
+    </form>
+</div>

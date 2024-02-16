@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ProjekatPPP.Models.BO.FakturaBO>
+
+@{
+    ViewData["Title"] = "GetAllFakture";
+}
+
+<h1>Lista izdatih faktura</h1>
+
+<p>
+    <a asp-action="Create">Izdaj novu fakturu</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Fakture</th>
+            <th>PIB</th>
+            <th>Cena</th>
+            <th>ID kupca</th>
+            <th>ID masine</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.idFakture</td>
+            <td>@item.pib</td>
+            <td>@item.cena</td>
+            <td>@item.idKupca</td>
+            <td>@item.idMasine</td>
+            <td>
+                @Html.ActionLink("Izmeni fakturu", "Edit", new { id=item.idFakture }) |
+                @Html.ActionLink("Storniraj fakturu", "Delete", new { id = item.idFakture }) 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
